@@ -1,0 +1,12 @@
+---
+- name: blah blah
+  hosts: localhost
+  gather_facts: true
+  
+  tasks:
+     - name: output some text
+       debug: 
+         msg: "Hi there, i am your new plugin"
+         
+         
+  
